@@ -26,21 +26,6 @@ bash
 Copier le code
 pip install -r requirements.txt
 
-🏗️ Lancer le projet localement
-1. Entraîner le modèle
-bash
-Copier le code
-python -m src.train.train_model
-2. Lancer le backend FastAPI
-bash
-Copier le code
-uvicorn src.app.main:app --reload
-3. Lancer le frontend Streamlit
-bash
-Copier le code
-streamlit run frontend.py
-Le frontend sera accessible sur http://localhost:8501
-Le backend FastAPI sur http://localhost:8000
 
 🐳 Lancer avec Docker
 Construire et lancer les containers :
@@ -54,45 +39,4 @@ Frontend : http://localhost:8501
 
 Backend : http://localhost:8000
 
-📝 Fonctionnalités
-Prédiction du prix d’une voiture à partir de ses caractéristiques
 
-Backend FastAPI dockerisé
-
-Frontend Streamlit dockerisé
-
-Communication frontend ↔ backend via Docker Compose
-
-Tests unitaires avec pytest
-
-Modèle ML entraîné avec RandomForestRegressor
-
-Structure de projet modulable pour MLOps
-
-🔧 Tests unitaires
-Pour vérifier que tout fonctionne :
-
-bash
-Copier le code
-python -m pytest -q
-📌 Bonnes pratiques incluses
-Environnement virtuel .venv
-
-.gitignore pour ne pas versionner les fichiers temporaires
-
-Dockerfile pour backend et frontend
-
-Docker Compose pour orchestration
-
-Fichiers de configuration Streamlit
-
-👤 Auteur
-Omar Hitar - GitHub
-
-
-
----
-
-Si tu veux, je peux aussi te préparer **une version “README visuel avec images et badges”** pour qu’il soit très pro, comme les vrais projets open-source MLOps.  
-
-Veux‑tu que je fasse ça ?
