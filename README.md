@@ -3,31 +3,6 @@
 Projet MLOps complet pour prédire le prix des voitures avec **FastAPI**, **Streamlit** et **Docker**.  
 Il inclut un backend ML, un frontend interactif et une orchestration Docker.
 
----
-
-## 📁 Structure du projet
-
-MLops-Car-price/
-│
-├─ src/ # Code backend FastAPI
-│ ├─ app/
-│ ├─ pipeline/
-│ ├─ train/
-│ └─ ...
-│
-├─ models/ # Modèle ML entraîné (rf_model.joblib)
-├─ frontend.py # Interface utilisateur Streamlit
-├─ Dockerfile # Dockerfile backend
-├─ Dockerfile.frontend # Dockerfile frontend
-├─ docker-compose.yml # Orchestration des services
-├─ requirements.txt # Dépendances Python
-├─ car-details.csv # Dataset
-└─ README.md
-
-yaml
-Copier le code
-
----
 
 ## ⚙️ Installation locale
 
@@ -50,6 +25,7 @@ Installer les dépendances :
 bash
 Copier le code
 pip install -r requirements.txt
+
 🏗️ Lancer le projet localement
 1. Entraîner le modèle
 bash
@@ -113,11 +89,7 @@ Fichiers de configuration Streamlit
 👤 Auteur
 Omar Hitar - GitHub
 
-📸 Capture d’écran
-(Ajouter ici un screenshot de ton frontend si tu veux embellir le README)
 
-yaml
-Copier le code
 
 ---
 
